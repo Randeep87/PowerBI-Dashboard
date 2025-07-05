@@ -1,143 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Randeep P. Raghunathan | Data Analyst & BI Specialist</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css"> <link rel="icon" type="image/png" href="path/to/your/favicon.png"> </head>
-<body>
-    <header class="bg-cover bg-center bg-no-repeat py-16 text-white" style="background-image: url('Banner.png');">
-  <div class="max-w-7xl mx-auto px-4 text-center bg-black bg-opacity-50 rounded-lg py-10">
-    <img src="pp.jpg" alt="Randeep" class="mx-auto w-32 h-32 rounded-full border-4 border-white shadow-md">
-    <h1 class="text-4xl font-bold mt-4">Randeep Pulikkaparambil Raghunathan</h1>
-    <p class="mt-2 text-lg">Data Analyst & BI Specialist | Transforming Data into Actionable Insights</p>
-    <div class="mt-4 space-x-4">
-      <a href="https://www.linkedin.com/in/randeeprakshit" target="_blank" class="underline">LinkedIn</a>
-      <a href="mailto:togetran@gmail.com" class="underline">Email</a>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Randeep | Data Analyst & BI Specialist</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; }
+    /* Add this custom style for the header background */
+    .hero-background {
+      background-image: url('Banner.png'); /* REPLACE 'your-image-name.jpg' with your image file name */
+      background-size: cover; /* Ensures the image covers the entire background */
+      background-position: center; /* Centers the background image */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <header class="hero-background py-16 text-white">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <img src="pp.jpg" alt="Randeep" class="mx-auto w-32 h-32 rounded-full border-4 border-white shadow-md">
+      <h1 class="text-4xl font-bold mt-4">Randeep Pulikkaparambil Raghunathan</h1>
+      <p class="mt-2 text-lg">Data Analyst & BI Specialist | Transforming Data into Actionable Insights</p>
+      <div class="mt-4 space-x-4">
+        <a href="https://www.linkedin.com/in/randeeprakshit" target="_blank" class="underline">LinkedIn</a>
+        <a href="mailto:togetran@gmail.com" class="underline">Email</a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-    <nav class="main-nav">
-        <div class="container">
-            <a href="#about" class="nav-link">About</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#experience" class="nav-link">Experience</a>
-            <a href="#resume" class="nav-link">Resume</a>
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex space-x-6 text-sm font-semibold">
+      <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#skills" class="hover:text-blue-600">Skills</a>
+      <a href="#projects" class="hover:text-blue-600">Projects</a>
+      <a href="#experience" class="hover:text-blue-600">Experience</a>
+      <a href="#resume" class="hover:text-blue-600">Resume</a>
+    </div>
+  </nav>
+
+  <section id="about" class="py-12 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">About Me</h2>
+    <p class="mb-2">I'm a Business Intelligence graduate with a strong passion for uncovering insights and driving data-informed decisions. With hands-on experience as a Data Analyst and Systems Developer, I bring a powerful combination of technical skills and business understanding.</p>
+    <p>I specialize in SQL solutions, interactive Power BI dashboards, and using Python and R for analytics. I aim to turn raw data into strategic, actionable insights that support organizational growth and decision-making.</p>
+  </section>
+
+  <section id="skills" class="bg-gray-100 py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">My Skills</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div>
+          <h3 class="font-semibold mb-2">Data Analysis & BI</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>SQL (Advanced)</li>
+            <li>Power BI (Dashboarding, DAX)</li>
+            <li>Python (Pandas, NumPy, Seaborn)</li>
+            <li>R (Statistics, Data Manipulation)</li>
+            <li>Excel (Advanced)</li>
+            <li>Statistical Analysis</li>
+          </ul>
         </div>
-    </nav>
-
-    <main>
-        <section id="about" class="section container">
-            <h2>About Me</h2>
-            <p>I'm a Business Intelligence graduate with a strong passion for uncovering insights and driving data-informed decisions. With hands-on experience as a Data Analyst and Systems Developer, I bring a powerful combination of technical skills and business understanding to every project I undertake.</p>
-            <p>I specialize in designing efficient SQL solutions, developing insightful and interactive Power BI dashboards, and applying Python and R for advanced analytics and statistical modeling. My goal is to transform raw data into compelling, actionable narratives that support strategic growth and operational efficiency.
-               Driven by curiosity and a love for problem-solving, I continuously seek innovative ways to leverage data to create value and support smarter decision-making across organizations.</p>
-        </section>
-
-        <section id="skills" class="section container">
-            <h2>My Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Data Analysis & BI</h3>
-                    <ul>
-                        <li><span class="skill-tag">SQL (Advanced)</span></li>
-                        <li><span class="skill-tag">Power BI (Dashboarding, DAX)</span></li>
-                        <li><span class="skill-tag">Python (Pandas, NumPy, Matplotlib, Seaborn)</span></li>
-                        <li><span class="skill-tag">R (Data Manipulation, Statistics)</span></li>
-                        <li><span class="skill-tag">Excel (Advanced)</span></li>
-                        <li><span class="skill-tag">Statistical Analysis</span></li>
-                        <li><span class="skill-tag">Data Visualization</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Database & ETL</h3>
-                    <ul>
-                        <li><span class="skill-tag">SQL Server</span></li>
-                        <li><span class="skill-tag">Database Design</span></li>
-                        <li><span class="skill-tag">ETL Processes</span></li>
-                        <li><span class="skill-tag">Data Warehousing</span></li>
-                        <li><span class="skill-tag">Data Modeling</span></li>
-                        <li><span class="skill-tag">Performance Tuning</span></li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Software & Systems</h3>
-                    <ul>
-                        <li><span class="skill-tag">.NET (C#)</span></li>
-                        <li><span class="skill-tag">VB6 (Legacy Migration)</span></li>
-                        <li><span class="skill-tag">ERP Systems</span></li>
-                        <li><span class="skill-tag">Requirements Gathering</span></li>
-                        <li><span class="skill-tag">Git</span></li>
-                        <li><span class="skill-tag">Github</span></li>
-                    </ul>
-                </div>
-            </div>
-            </section>
-
-        <section id="projects" class="section container">
-            <h2>Featured Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Sales Performance Dashboard (Power BI)</h3>
-                    <p>Designed and implemented an interactive Power BI dashboard to visualize sales trends, identify top-performing products, and monitor regional sales effectiveness. Enabled stakeholders to quickly grasp key metrics and make data-driven decisions.</p>
-                    <a href="https://github.com/Randeep87/PowerBI_Dashboard.git" class="btn" target="_blank">View Dashboard (Coming Soon)</a>
-                    </div>
-                <div class="project-card">
-                    <h3>Quantifying the effect of fuel and traffic regulations on air pollution  (Python)</h3>
-                    <p>Developed a predictive model using Python to quantify the effect of Traffic and policies . Utilized historical pollutant data, built features, and evaluated model performance. Provided insights to guide retention strategies.</p>
-                    <a href="https://github.com/Randeep87/Thesis_Project_Python.git" class="btn" target="_blank">View Code</a>
-                </div>
-                <div class="project-card">
-                    <h3>ERP Data Migration & Optimization (SQL Server)</h3>
-                    <p>Led the migration of legacy ERP data to a new SQL Server environment,Data Warehousing, ensuring data integrity and optimizing database performance. Developed complex ETL scripts and procedures to streamline data flow and improve reporting capabilities.</p>
-                    <a href="https://github.com/Randeep87/Data_Warehouse.git" class="btn" target="_blank">Case Study</a>
-                </div>
-                </div>
-        </section>
-
-        <section id="experience" class="section container">
-            <h2>Experience</h2>
-
-            <div class="experience-item">
-                <h3>Assistant Professor – Holy Grace Academy of Engineering, India</h3>
-                <p class="duration">Mar/2023 – Aug/2024</p>
-                <ul>
-                    <li>Delivered engaging lectures and conducted practical sessions in Computer Science / Data Science to undergraduate students.</li>
-                    <li>Mentored students on academic projects, guiding them through research, problem-solving, and presentation of their work.</li>
-                    <li>Developed and updated course curriculum to align with industry trends and university standards, ensuring students gained relevant and up-to-date knowledge.</li>
-                    <li>Assessed student performance through examinations, assignments, and practical evaluations, providing constructive feedback for continuous improvement.</li>
-                </ul>
-            </div>
-
-            <div class="experience-item">
-                <h3>Software Engineer|Data Analyst – Facts Computer Software House, Dubai</h3>
-                <p class="duration">Dec/2017– Jan/2022</p>
-                <ul>
-                    <li>Led the development, implementation, and support of ERP projects, with a strong focus on data integration and reporting needs.</li>
-                    <li>Designed and maintained applications using .NET (C#) and SQL Server, often involving the extraction and manipulation of large datasets.</li>
-                    <li>Spearheaded the digitalization of manual workflows, leveraging data analysis to identify bottlenecks and increase process efficiency by 40%.</li>
-                    <li>Collaborated with cross-functional teams to gather data requirements and deliver tailored analytical solutions.</li>
-                    <li>Wrote complex SQL queries and performed mathematical computations to fulfill customer's data reporting and analytical requirements.</li>
-                    <li>Assisted in data modeling and ETL processes to streamline data management and enhance reporting accuracy.</li>
-                </ul>
-            </div>
-            </section>
-
-        <section id="resume" class="section container">
-            <h2>My Resume</h2>
-            <p>For a detailed overview of my qualifications and professional journey, you can download my full resume.</p>
-            <a href="C:\Users\rande\Desktop\CV SWEDEN\Data Analyst.pdf" class="btn primary-btn" download>Download Resume</a>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Randeep Pulikkaparambil Raghunathan. All rights reserved.</p>
+        <div>
+          <h3 class="font-semibold mb-2">Database & ETL</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>SQL Server</li>
+            <li>Data Warehousing</li>
+            <li>ETL Processes</li>
+            <li>Database Design</li>
+            <li>Performance Tuning</li>
+          </ul>
         </div>
-    </footer>
+        <div>
+          <h3 class="font-semibold mb-2">Software & Tools</h3>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>.NET (C#), VB6</li>
+            <li>ERP Systems</li>
+            <li>Git & GitHub</li>
+            <li>Requirements Gathering</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script> </body>
+  <section id="projects" class="py-12 px-4">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-2xl font-bold mb-8">Featured Projects</h2>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+
+        <div class="bg-white rounded-xl shadow-md p-6">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2"> Sales Performance Dashboard</h3>
+          <p class="text-gray-700 mb-4">Interactive Power BI dashboard to visualize sales trends, top-performing products, and regional effectiveness. Built using DAX and published on GitHub Pages.</p>
+          <a href="https://github.com/Randeep87/PowerBI_Dashboard.git" class="text-blue-600 font-medium hover:underline">🔗 View Dashboard </a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-6">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2">Air Pollution Impact Modeling</h3>
+          <p class="text-gray-700 mb-4">Python model to evaluate fuel & traffic regulation impacts on PM2.5 levels using real-time data. Includes machine learning and residual diagnostics.</p>
+          <a href="https://github.com/Randeep87/Thesis_Project_Python.git" class="text-blue-600 font-medium hover:underline" target="_blank">🔗 View Code</a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-md p-6">
+          <h3 class="text-xl font-semibold text-blue-700 mb-2"> ERP Data Migration</h3>
+          <p class="text-gray-700 mb-4">Migrated legacy ERP data to SQL Server with optimized ETL scripting. Designed a data warehouse structure for efficient querying and reporting.</p>
+          <a href="https://github.com/Randeep87/Data_Warehouse.git" class="text-blue-600 font-medium hover:underline" target="_blank">📘 Case Study</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="bg-gray-100 py-12 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-2xl font-bold mb-6">Professional Experience</h2>
+
+      <div class="mb-8">
+        <h3 class="text-lg font-semibold">Assistant Professor – Holy Grace Academy of Engineering, India</h3>
+        <p class="text-sm text-gray-600">Mar 2023 – Aug 2024</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Taught Computer Science and Data Science subjects to undergraduate students.</li>
+          <li>Mentored students on academic projects and research presentations.</li>
+          <li>Aligned curriculum to current industry practices and tech trends.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold">Software Engineer & Data Analyst – Facts Computer Software House, Dubai</h3>
+        <p class="text-sm text-gray-600">Dec 2017 – Jan 2022</p>
+        <ul class="list-disc list-inside text-gray-700 mt-2">
+          <li>Led ERP development and data integration projects using .NET and SQL Server.</li>
+          <li>Designed reporting solutions and optimized database performance.</li>
+          <li>Created ETL processes and improved operational efficiency by 40%.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume" class="py-12 px-4 max-w-4xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">My Resume</h2>
+    <p class="mb-4">Download my full resume to see my complete education, skills, and experience.</p>
+    <a href="Resume.pdf" download class="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">📄 Download Resume</a>
+  </section>
+
+  <footer class="bg-white py-6 mt-12 border-t">
+    <div class="text-center text-sm text-gray-500">
+      &copy; 2025 Randeep Pulikkaparambil Raghunathan. All rights reserved.
+    </div>
+  </footer>
+
+</body>
 </html>
